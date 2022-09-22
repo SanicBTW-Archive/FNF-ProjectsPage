@@ -1,1 +1,33 @@
+<!-- Code heavily based off my socials page -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <link href="./assets/favicon.jpg" rel="shortcut icon">
+        <link href="./index.css" rel="stylesheet">
+
+        <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+        <script>eruda.init();</script>
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+        <script src="./source/transitions.js"></script>
+        <script src="./source/main.js" defer></script>
+        <title>FNF Projects</title>
+    </head>
+    <body style="margin: 1rem;">
+        <div id="blackTransition" style="width: 100%; height: 2000px; background-color: black; transition: 0.5s ease-in-out; position: absolute; top: -2000px; left: 0px; right: 0px; z-index: 1;"></div>
+        <div id="mainDiv">
+            <h1>My Friday Night Funkin projects</h1>
+            <p>Yes, this was made out of boredom</p>
+            <div class="itemlist" id="reposhit">
+
+            </div>
+        </div>
+        <img style="width: 24px; margin: 1rem; position: fixed; bottom: 0; left: 0; display: none;" src="./assets/back.png" id="backbtn">
+        <p style="position: fixed; bottom: 0; right: 0; opacity: 0.5; margin: 1rem;">Version 1.0 | Commit 2 [ Not pushed ]</p>
+    </body>
+</html>
